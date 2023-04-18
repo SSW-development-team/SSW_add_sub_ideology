@@ -1,0 +1,433 @@
+ideologies = {
+	total_socialism = {	#全体的社会主義
+		
+		types = {
+			total_socialism_ideology = {}
+			marxism-leninism_ideology = {}
+			stalinism_ideology = {}
+			trotskyism_ideology = {}
+			bukharinism_ideology = {}
+			maoism_ideology = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_TOTAL_SOCIALISM_1"
+			"FACTION_NAME_TOTAL_SOCIALISM_2"
+			"FACTION_NAME_TOTAL_SOCIALISM_3"
+			"FACTION_NAME_TOTAL_SOCIALISM_4"
+			"FACTION_NAME_TOTAL_SOCIALISM_5"
+		}
+		
+		color = { 127 0 0 }
+		
+		war_impact_on_world_tension = 0.25		#Commie less threatening
+		faction_impact_on_world_tension = 0.25
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+
+		modifiers = {
+			mobilization_speed = 0.05
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			justify_war_goal_when_in_major_war_time = -0.15
+			civilian_intel_to_others = 0.0
+			army_intel_to_others = 0.0
+			navy_intel_to_others = 0.0
+			airforce_intel_to_others = 0.0
+			resistance_target = 0.10
+			compliance_gain = -0.10
+			political_power_factor = 0.10
+		}
+		can_host_government_in_exile = yes
+		can_be_boosted = yes
+	}
+	radical_socialism = {	#急進的社会主義
+		
+		types = {
+			radical_socialism_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_RADICAL_SOCIALISM_1"
+			"FACTION_NAME_RADICAL_SOCIALISM_2"
+			"FACTION_NAME_RADICAL_SOCIALISM_3"
+			"FACTION_NAME_RADICAL_SOCIALISM_4"
+			"FACTION_NAME_RADICAL_SOCIALISM_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.25		#Commie less threatening
+		faction_impact_on_world_tension = 0.25
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			mobilization_speed = 0.05
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			civilian_intel_to_others = 0.0
+			army_intel_to_others = 0.0
+			navy_intel_to_others = 0.0
+			airforce_intel_to_others = 0.0
+			resistance_target = 0.05
+			compliance_gain = -0.05
+			political_power_factor = 0.05
+		}
+		
+		faction_modifiers = {
+		faction_trade_opinion_factor = 0.20
+		}
+		can_host_government_in_exile = yes
+		can_be_boosted = yes
+	}
+	social_democracy = {	#社会民主主義
+		types = {
+			social_democracy_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRACY_1"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_2"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_3"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_4"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_5"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_6"
+		}
+		
+		color = { 255 0 127 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+			mobilization_speed = -0.03
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 5.0
+			compliance_gain = 0.05
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.20 #plus 50% trade opinion
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		can_be_boosted = yes
+	}
+	liberal_democracy = {	#自由民主主義
+		types = {
+			liberal_democracy_ideology = {}
+			conservative_liberalism_ideology = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERALISM_1"
+			"FACTION_NAME_SOCIAL_LIBERALISM_2"
+			"FACTION_NAME_SOCIAL_LIBERALISM_3"
+			"FACTION_NAME_SOCIAL_LIBERALISM_4"
+			"FACTION_NAME_SOCIAL_LIBERALISM_5"
+			"FACTION_NAME_SOCIAL_LIBERALISM_6"
+		}
+		
+		color = { 255 255 0 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+			mobilization_speed = -0.03
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 5.0
+			compliance_gain = 0.05
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.20
+		}
+		can_collaborate = yes
+		can_be_boosted = yes
+	}
+	conservative_democracy = {	#保守民主主義
+		types = {
+			conservative_democracy_ideology = {}
+			christian_democracy_ideology = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONSERVATISM_1"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_2"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_3"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_4"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_5"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_6"
+		}
+		
+		color = { 0 0 255 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+			mobilization_speed = -0.03
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 5.0
+			compliance_gain = 0.05
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.10
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		can_be_boosted = yes
+	}
+	authoritative_democracy = {	#権威民主主義
+		types = {
+			authoritative_democracy_ideology = {}
+			authoritarian_conservatism_ideology = {}
+			provisional_government_ideology = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITATIVE_DEMOCRACY_1"
+			"FACTION_NAME_AUTHORITATIVE_DEMOCRACY_2"
+			"FACTION_NAME_AUTHORITATIVE_DEMOCRACY_3"
+			"FACTION_NAME_AUTHORITATIVE_DEMOCRACY_4"
+			"FACTION_NAME_AUTHORITATIVE_DEMOCRACY_5"
+		}
+		
+		color = { 127 127 127 }
+		
+		
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.25
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			mobilization_speed = 0.03
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 0.0
+			airforce_intel_to_others = 0.0
+			compliance_gain = -0.03
+			political_power_factor = 0.03
+		}
+		
+		faction_modifiers = {
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		can_be_boosted = yes
+	}
+	national_authoritarianism = {	#国家権威主義
+		types = {
+			national_authoritarianism_ideology = {}
+			colonial_government_ideology = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_REACTIONARY_AUTHORITARIANISM_1"
+			"FACTION_NAME_REACTIONARY_AUTHORITARIANISM_2"
+			"FACTION_NAME_REACTIONARY_AUTHORITARIANISM_3"
+			"FACTION_NAME_REACTIONARY_AUTHORITARIANISM_4"
+			"FACTION_NAME_REACTIONARY_AUTHORITARIANISM_5"
+		}
+		
+		color = { 63 63 63 }
+		
+		
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.25
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			mobilization_speed = 0.05
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			civilian_intel_to_others = 0.0
+			army_intel_to_others = 0.0
+			navy_intel_to_others = 0.0
+			airforce_intel_to_others = 0.0
+			resistance_target = 0.05
+			compliance_gain = -0.05
+			political_power_factor = 0.05
+		}
+		
+		faction_modifiers = {
+		}
+		
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		can_be_boosted = yes
+	}
+	national_populism = {	#国家大衆主義
+		types = {
+			national_populism_ideology = {}
+			francoism_ideology = {}
+			national_socialism_ideology = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_POPULISM_1"
+			"FACTION_NAME_NATIONAL_POPULISM_2"
+			"FACTION_NAME_NATIONAL_POPULISM_3"
+			"FACTION_NAME_NATIONAL_POPULISM_4"
+			"FACTION_NAME_NATIONAL_POPULISM_5"
+		}
+		
+		color = { 127 63 0 }
+		
+		war_impact_on_world_tension = 0.25			#evil!
+		faction_impact_on_world_tension = 0.25
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			mobilization_speed = 0.07
+			generate_wargoal_tension = 0.25
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.10
+			send_volunteers_tension = 0.10
+			guarantee_tension = 0.30
+			justify_war_goal_when_in_major_war_time = -0.15
+			civilian_intel_to_others = 0.0
+			army_intel_to_others = 0.0
+			navy_intel_to_others = 0.0
+			airforce_intel_to_others = 0.0
+			resistance_target = 0.10
+			compliance_gain = -0.10
+		}
+
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		can_be_boosted = yes
+	}
+}
