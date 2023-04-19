@@ -87,10 +87,6 @@ defined_text = {	#国家権威主義
 	}
 }
 defined_text = {	#国家大衆主義
-	spriteType = {	#ばいおず主義
-		name = "GFX_ideology_vaioz5ism"
-		texturefile = "gfx/interface/ideologies/national_populism/vaioz5ism.png"
-	}
 	spriteType = {	#フランコ主義
 		name = "GFX_ideology_francoism_ideology"
 		texturefile = "gfx/interface/ideologies/national_populism/francoism_ideology.png"

@@ -9,7 +9,7 @@ class Ideology:
 		
 	def add_sub_ideologies(self):
 		self.file = open('./{0}/common/ideologies/{0}_ideologies.txt'.format(self.mod_name), 'r', encoding='UTF-8')
-		old_text = re.sub('types = [\s\S\n]*?\n\t\t\}\n\t\t\n\t\t' , "", self.file.read()).splitlines()
+		old_text = re.sub('types = [\s\S\n]*?\n\t\t\}\n\t\t' , "", self.file.read()).splitlines()
 		new_text = []
 		for line in old_text:
 			new_text.append(line)

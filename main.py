@@ -65,7 +65,7 @@ class AddCountryWindow:
 			[sg.Text("ID", size=(7, 1)), sg.InputText(key="id")],
 			[sg.Text("名称", size=(7, 1)), sg.InputText(key="name")],
 			[sg.Text("説明", size=(7, 1)), sg.InputText(key="desc")],
-			[sg.Text("メインイデオロギー", size = (7, 1)), sg.Combo(main_ideology, key = "main_ideology", readonly = True)],
+			[sg.Text("メイン", size = (7, 1)), sg.Combo(main_ideology, key = "main_ideology", readonly = True)],
 			[sg.Text("特性用", size=(7, 1)), sg.InputText(key="trait")],
 			[sg.Submit(button_text="サブイデ追加")],
 		]
