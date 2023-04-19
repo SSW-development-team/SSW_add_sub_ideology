@@ -1,0 +1,504 @@
+ideologies = {
+	anarchism = {	#無政府主義
+		types = {
+			anarchism_ideology = {	#無政府主義
+			}
+			anarcho_capitalism_ideology = {	#無政府資本主義
+				can_be_randomly_selected = no
+			}
+			anarcho_communism_ideology = {	#無政府共産主義
+				can_be_randomly_selected = no
+			}
+			anarcho_syndicalism_ideology = {	#無政府サンディカリスム
+				can_be_randomly_selected = no
+			}
+			anarchy_ideology = {	#無秩序
+				can_be_randomly_selected = no
+			}
+			national_anarchism_ideology = {	#民族無政府主義
+				can_be_randomly_selected = no
+			}
+			religious_anarchism_ideology = {	#宗教無政府主義
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 0 0 0 }
+		rules = {
+			can_send_volunteers = no
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 1
+			lend_lease_tension = 1
+			send_volunteers_tension = 1
+			civilian_intel_to_others = 50
+			army_intel_to_others = 50
+			navy_intel_to_others = 50
+			airforce_intel_to_others = 50
+			decryption_factor = -0.15
+			encryption_factor = -0.15
+			conscription_factor = 0.15
+			conscription = 0.03
+			non_core_manpower = 0.15
+			training_time_army_factor = -0.15
+			army_org_factor = 0.15
+			army_morale_factor = 0.15
+			attrition = -0.15
+			supply_consumption_factor = -0.15
+			production_factory_max_efficiency_factor = -0.15
+			line_change_production_efficiency_factor = -0.15
+			production_speed_buildings_factor = -0.15
+			industrial_capacity_factory = -0.15
+			industrial_capacity_dockyard = -0.15
+			industry_repair_factor = -0.15
+			consumer_goods_factor = -0.15
+			min_export = -1
+			research_speed_factor = -0.15
+		}
+	}
+	progressive_socialism = {	#革新的社会主義
+		types = {
+			progressive_socialism_ideology = {	#革新的社会主義
+			}
+			christian_socialism_ideology = {	#キリスト教社会主義
+				can_be_randomly_selected = no
+			}
+			ethnic_socialism_ideology = {	#民族社会主義
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_ideology = {	#リバタリアン社会主義
+				can_be_randomly_selected = no
+			}
+			market_socialism_ideology = {	#市場社会主義
+				can_be_randomly_selected = no
+			}
+			syndicalism_ideology = {	#サンディカリスム
+				can_be_randomly_selected = no
+			}
+			techno_socialism_ideology = {	#技術家社会主義
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 255 40 40 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			production_factory_max_efficiency_factor = 0.07
+			industrial_capacity_factory = 0.07
+		}
+	}
+	marxism-leninism = {	#マルクス・レーニン主義
+		types = {
+			marxism-leninism_ideology = {	#マルクス＝レーニン主義
+			}
+			maoism_ideology = {	#毛沢東主義
+				can_be_randomly_selected = no
+			}
+			militant_socialism_ideology = {	#軍国社会主義
+				can_be_randomly_selected = no
+			}
+			national_bolshevism_left_ideology = {	#国家ボルシェヴィズム左派
+				can_be_randomly_selected = no
+			}
+			national_communism_ideology = {	#民族共産主義
+				can_be_randomly_selected = no
+			}
+			stalinism_ideology = {	#スターリン主義
+				can_be_randomly_selected = no
+			}
+			techno_bolshevism_ideology = {	#技術家ボルシェヴィズム
+				can_be_randomly_selected = no
+			}
+			trotskyism_ideology = {	#トロツキー主義
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 142 0 0 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			conscription_factor = 0.07
+			training_time_army_factor = -0.07
+		}
+	}
+	social_democracy = {	#社会民主主義
+		types = {
+			social_democracy_ideology = {	#社会民主主義
+			}
+			christian_leftist_democracy_ideology = {	#キリスト教左派民主主義
+				can_be_randomly_selected = no
+			}
+			democratic_socialism_ideology = {	#民主社会主義
+				can_be_randomly_selected = no
+			}
+			left_populism_ideology = {	#左派大衆主義
+				can_be_randomly_selected = no
+			}
+			leftist_kemalism_ideology = {	#左派ケマル主義
+				can_be_randomly_selected = no
+			}
+			national_social_democracy_ideology = {	#国家社会民主主義
+				can_be_randomly_selected = no
+			}
+			popular_front_ideology = {	#人民戦線
+				can_be_randomly_selected = no
+			}
+			reformism_ideology = {	#改良主義
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 194 30 86 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			lend_lease_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+			line_change_production_efficiency_factor = 0.07
+			production_factory_efficiency_gain_factor = 0.07
+		}
+	}
+	liberalism = {	#自由主義
+		types = {
+			liberalism_ideology = {	#自由主義
+			}
+			classical_liberalism_ideology = {	#古典的自由主義
+				can_be_randomly_selected = no
+			}
+			liberal_corporatocracism_ideology = {	#自由的企業支配主義
+				can_be_randomly_selected = no
+			}
+			market_liberalism_ideology = {	#市場自由主義
+				can_be_randomly_selected = no
+			}
+			social_liberalism_ideology = {	#社会自由主義
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 246 139 31 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			lend_lease_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+			political_power_gain = 0.07
+			non_core_manpower = 0.07
+		}
+	}
+	conservative_democracy = {	#保守民主主義
+		types = {
+			conservative_democracy_ideology = {	#保守民主主義
+			}
+			agrarianism_ideology = {	#農耕主義
+				can_be_randomly_selected = no
+			}
+			christian_rightist_democracy_ideology = {	#キリスト教右派民主主義
+				can_be_randomly_selected = no
+			}
+			conservative_populism_ideology = {	#保守大衆主義
+				can_be_randomly_selected = no
+			}
+			islamic_democracy_ideology = {	#イスラム民主主義
+				can_be_randomly_selected = no
+			}
+			reformer_conservatism_ideology = {	#改良保守主義
+				can_be_randomly_selected = no
+			}
+			social_conservatism_ideology = {	#社会保守主義
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 0 80 168 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			lend_lease_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+			surrender_limit = 0.07
+			stability_factor = 0.07
+		}
+	}
+	authoritarian_democrat = {	#権威民主主義
+		types = {
+			authoritarian_democrat_ideology = {	#権威的民主主義
+			}
+			authority_corporatocracism_ideology = {	#権威的企業支配主義
+				can_be_randomly_selected = no
+			}
+			kemalism_ideology = {	#ケマル主義
+				can_be_randomly_selected = no
+			}
+			national_conservatism_ideology = {	#国民保守主義
+				can_be_randomly_selected = no
+			}
+			oligarchy_ideology = {	#寡頭制
+				can_be_randomly_selected = no
+			}
+			pragmatic_socialism_ideology = {	#実用社会主義
+				can_be_randomly_selected = no
+			}
+			progressive_nationalism_ideology = {	#革新民族主義
+				can_be_randomly_selected = no
+			}
+			supervised_parliamentary_system_ideology = {	#統制型議会制
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 140 140 140 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			lend_lease_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+			consumer_goods_factor = -0.07
+			research_speed_factor = 0.07
+		}
+	}
+	authoritarian_despot = {	#権威専制主義
+		types = {
+			authoritarian_despot_ideology = {	#権威専制主義
+			}
+			absolute_monarchism_ideology = {	#絶対君主主義
+				can_be_randomly_selected = no
+			}
+			despotic_leadership_ideology = {	#指導者独裁制
+				can_be_randomly_selected = no
+			}
+			feudalism_ideology = {	#封建主義
+				can_be_randomly_selected = no
+			}
+			francoism_ideology = {	#フランコ主義
+				can_be_randomly_selected = no
+			}
+			military_junta_ideology = {	#軍事政権
+				can_be_randomly_selected = no
+			}
+			theocracy_ideology = {	#神権主義
+				can_be_randomly_selected = no
+			}
+			warlordism_ideology = {	#軍閥主義
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 60 60 60 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			lend_lease_tension = 0.25
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			war_support_factor = 0.07
+			political_power_factor = 0.07
+		}
+	}
+	national_fascism = {	#国家結束主義
+		types = {
+			national_fascism_ideology = {	#国家結束主義
+			}
+			clerical_fascism_ideology = {	#宗教ファシズム
+				can_be_randomly_selected = no
+			}
+			corporate_militarism_ideology = {	#協調軍国主義
+				can_be_randomly_selected = no
+			}
+			falangism_ideology = {	#ファランジズム
+				can_be_randomly_selected = no
+			}
+			fasci_populism_ideology = {	#結束大衆主義
+				can_be_randomly_selected = no
+			}
+			national_syndicalism_ideology = {	#国家サンディカリズム
+				can_be_randomly_selected = no
+			}
+			pelleyism_ideology = {	#超方体主義
+				can_be_randomly_selected = no
+			}
+			solidarism_ideology = {	#連帯主義
+				can_be_randomly_selected = no
+			}
+			yokusan_system_ideology = {	#翼賛体制
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 142 57 0 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			training_time_army_factor = -0.07
+			industrial_capacity_factory = 0.07
+		}
+	}
+	national_socialism = {	#国家社会主義
+		types = {
+			national_socialism_ideology = {	#国家社会主義
+			}
+			esoteric_nazism_ideology = {	#秘教ナチズム
+				can_be_randomly_selected = no
+			}
+			international_nazism_ideology = {	#国際ナチズム
+				can_be_randomly_selected = no
+			}
+			national_bolshevism_right_ideology = {	#国家ボルシェヴィズム右派
+				can_be_randomly_selected = no
+			}
+			stratocratic_nazism_ideology = {	#軍事ナチズム
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 68 33 10 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			mobilization_speed = 0.07
+			conscription_factor = 0.07
+		}
+	}
+	ultranationalism = {	#超国家主義
+		types = {
+			ultranationalism_ideology = {	#超国家主義
+			}
+			esoterism_ideology = {	#秘教主義
+				can_be_randomly_selected = no
+			}
+			eurasianism_ideology = {	#ユーラシア主義
+				can_be_randomly_selected = no
+			}
+			fundamentalism_ideology = {	#宗教原理主義
+				can_be_randomly_selected = no
+			}
+			turanism_ideology = {	#ツラニズム
+				can_be_randomly_selected = no
+			}
+		}
+		
+		color = { 42 68 44 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			production_factory_max_efficiency_factor = 0.07
+			production_speed_buildings_factor = 0.07
+		}
+	}
+}

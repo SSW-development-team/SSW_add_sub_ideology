@@ -1,0 +1,388 @@
+defined_text = {
+	name = GetIdeologyType
+	text = {	#無政府主義
+		trigger = {	has_government = anarchism	}
+		localization_key = [GetIdeologyType_anarchism]
+	}
+	text = {	#革新的社会主義
+		trigger = {	has_government = progressive_socialism	}
+		localization_key = [GetIdeologyType_progressive_socialism]
+	}
+	text = {	#マルクス＝レーニン主義
+		trigger = {	has_government = marxism-leninism	}
+		localization_key = [GetIdeologyType_marxism-leninism]
+	}
+	text = {	#社会民主主義
+		trigger = {	has_government = social_democracy	}
+		localization_key = [GetIdeologyType_social_democracy]
+	}
+	text = {	#自由主義
+		trigger = {	has_government = liberalism	}
+		localization_key = [GetIdeologyType_liberalism]
+	}
+	text = {	#保守民主主義
+		trigger = {	has_government = conservative_democracy	}
+		localization_key = [GetIdeologyType_conservative_democracy]
+	}
+	text = {	#権威的民主主義
+		trigger = {	has_government = authoritarian_democrat	}
+		localization_key = [GetIdeologyType_authoritarian_democrat]
+	}
+	text = {	#権威専制主義
+		trigger = {	has_government = authoritarian_despot	}
+		localization_key = [GetIdeologyType_authoritarian_despot]
+	}
+	text = {	#国家結束主義
+		trigger = {	has_government = national_fascism	}
+		localization_key = [GetIdeologyType_national_fascism]
+	}
+	text = {	#国家社会主義
+		trigger = {	has_government = national_socialism	}
+		localization_key = [GetIdeologyType_national_socialism]
+	}
+	text = {	#超国家主義
+		trigger = {	has_government = ultranationalism	}
+		localization_key = [GetIdeologyType_ultranationalism]
+	}
+}
+defined_text = {	#無政府主義
+	name = GetIdeologyType_anarchism
+	text = {	#無政府資本主義
+		trigger = {	has_country_leader_ideology = anarcho_capitalism_ideology	}
+		localization_key = anarcho_capitalism_ideology
+	}
+	text = {	#無政府共産主義
+		trigger = {	has_country_leader_ideology = anarcho_communism_ideology	}
+		localization_key = anarcho_communism_ideology
+	}
+	text = {	#無政府サンディカリスム
+		trigger = {	has_country_leader_ideology = anarcho_syndicalism_ideology	}
+		localization_key = anarcho_syndicalism_ideology
+	}
+	text = {	#無秩序
+		trigger = {	has_country_leader_ideology = anarchy_ideology	}
+		localization_key = anarchy_ideology
+	}
+	text = {	#民族無政府主義
+		trigger = {	has_country_leader_ideology = national_anarchism_ideology	}
+		localization_key = national_anarchism_ideology
+	}
+	text = {	#宗教無政府主義
+		trigger = {	has_country_leader_ideology = religious_anarchism_ideology	}
+		localization_key = religious_anarchism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = anarchism_ideology
+	}
+}
+defined_text = {	#革新的社会主義
+	name = GetIdeologyType_progressive_socialism
+	text = {	#キリスト教社会主義
+		trigger = {	has_country_leader_ideology = christian_socialism_ideology	}
+		localization_key = christian_socialism_ideology
+	}
+	text = {	#民族社会主義
+		trigger = {	has_country_leader_ideology = ethnic_socialism_ideology	}
+		localization_key = ethnic_socialism_ideology
+	}
+	text = {	#リバタリアン社会主義
+		trigger = {	has_country_leader_ideology = libertarian_socialism_ideology	}
+		localization_key = libertarian_socialism_ideology
+	}
+	text = {	#市場社会主義
+		trigger = {	has_country_leader_ideology = market_socialism_ideology	}
+		localization_key = market_socialism_ideology
+	}
+	text = {	#サンディカリスム
+		trigger = {	has_country_leader_ideology = syndicalism_ideology	}
+		localization_key = syndicalism_ideology
+	}
+	text = {	#技術家社会主義
+		trigger = {	has_country_leader_ideology = techno_socialism_ideology	}
+		localization_key = techno_socialism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = progressive_socialism_ideology
+	}
+}
+defined_text = {	#マルクス＝レーニン主義
+	name = GetIdeologyType_marxism-leninism
+	text = {	#毛沢東主義
+		trigger = {	has_country_leader_ideology = maoism_ideology	}
+		localization_key = maoism_ideology
+	}
+	text = {	#軍国社会主義
+		trigger = {	has_country_leader_ideology = militant_socialism_ideology	}
+		localization_key = militant_socialism_ideology
+	}
+	text = {	#国家ボルシェヴィズム左派
+		trigger = {	has_country_leader_ideology = national_bolshevism_left_ideology	}
+		localization_key = national_bolshevism_left_ideology
+	}
+	text = {	#民族共産主義
+		trigger = {	has_country_leader_ideology = national_communism_ideology	}
+		localization_key = national_communism_ideology
+	}
+	text = {	#スターリン主義
+		trigger = {	has_country_leader_ideology = stalinism_ideology	}
+		localization_key = stalinism_ideology
+	}
+	text = {	#技術家ボルシェヴィズム
+		trigger = {	has_country_leader_ideology = techno_bolshevism_ideology	}
+		localization_key = techno_bolshevism_ideology
+	}
+	text = {	#トロツキー主義
+		trigger = {	has_country_leader_ideology = trotskyism_ideology	}
+		localization_key = trotskyism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = marxism-leninism_ideology
+	}
+}
+defined_text = {	#社会民主主義
+	name = GetIdeologyType_social_democracy
+	text = {	#キリスト教左派民主主義
+		trigger = {	has_country_leader_ideology = christian_leftist_democracy_ideology	}
+		localization_key = christian_leftist_democracy_ideology
+	}
+	text = {	#民主社会主義
+		trigger = {	has_country_leader_ideology = democratic_socialism_ideology	}
+		localization_key = democratic_socialism_ideology
+	}
+	text = {	#左派大衆主義
+		trigger = {	has_country_leader_ideology = left_populism_ideology	}
+		localization_key = left_populism_ideology
+	}
+	text = {	#左派ケマル主義
+		trigger = {	has_country_leader_ideology = leftist_kemalism_ideology	}
+		localization_key = leftist_kemalism_ideology
+	}
+	text = {	#国家社会民主主義
+		trigger = {	has_country_leader_ideology = national_social_democracy_ideology	}
+		localization_key = national_social_democracy_ideology
+	}
+	text = {	#人民戦線
+		trigger = {	has_country_leader_ideology = popular_front_ideology	}
+		localization_key = popular_front_ideology
+	}
+	text = {	#改良主義
+		trigger = {	has_country_leader_ideology = reformism_ideology	}
+		localization_key = reformism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = social_democracy_ideology
+	}
+}
+defined_text = {	#自由主義
+	name = GetIdeologyType_liberalism
+	text = {	#古典的自由主義
+		trigger = {	has_country_leader_ideology = classical_liberalism_ideology	}
+		localization_key = classical_liberalism_ideology
+	}
+	text = {	#自由的企業支配主義
+		trigger = {	has_country_leader_ideology = liberal_corporatocracism_ideology	}
+		localization_key = liberal_corporatocracism_ideology
+	}
+	text = {	#市場自由主義
+		trigger = {	has_country_leader_ideology = market_liberalism_ideology	}
+		localization_key = market_liberalism_ideology
+	}
+	text = {	#社会自由主義
+		trigger = {	has_country_leader_ideology = social_liberalism_ideology	}
+		localization_key = social_liberalism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = liberalism_ideology
+	}
+}
+defined_text = {	#保守民主主義
+	name = GetIdeologyType_conservative_democracy
+	text = {	#農耕主義
+		trigger = {	has_country_leader_ideology = agrarianism_ideology	}
+		localization_key = agrarianism_ideology
+	}
+	text = {	#キリスト教右派民主主義
+		trigger = {	has_country_leader_ideology = christian_rightist_democracy_ideology	}
+		localization_key = christian_rightist_democracy_ideology
+	}
+	text = {	#保守大衆主義
+		trigger = {	has_country_leader_ideology = conservative_populism_ideology	}
+		localization_key = conservative_populism_ideology
+	}
+	text = {	#イスラム民主主義
+		trigger = {	has_country_leader_ideology = islamic_democracy_ideology	}
+		localization_key = islamic_democracy_ideology
+	}
+	text = {	#改良保守主義
+		trigger = {	has_country_leader_ideology = reformer_conservatism_ideology	}
+		localization_key = reformer_conservatism_ideology
+	}
+	text = {	#社会保守主義
+		trigger = {	has_country_leader_ideology = social_conservatism_ideology	}
+		localization_key = social_conservatism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = conservative_democracy_ideology
+	}
+}
+defined_text = {	#権威的民主主義
+	name = GetIdeologyType_authoritarian_democrat
+	text = {	#権威的企業支配主義
+		trigger = {	has_country_leader_ideology = authority_corporatocracism_ideology	}
+		localization_key = authority_corporatocracism_ideology
+	}
+	text = {	#ケマル主義
+		trigger = {	has_country_leader_ideology = kemalism_ideology	}
+		localization_key = kemalism_ideology
+	}
+	text = {	#国民保守主義
+		trigger = {	has_country_leader_ideology = national_conservatism_ideology	}
+		localization_key = national_conservatism_ideology
+	}
+	text = {	#寡頭制
+		trigger = {	has_country_leader_ideology = oligarchy_ideology	}
+		localization_key = oligarchy_ideology
+	}
+	text = {	#実用社会主義
+		trigger = {	has_country_leader_ideology = pragmatic_socialism_ideology	}
+		localization_key = pragmatic_socialism_ideology
+	}
+	text = {	#革新民族主義
+		trigger = {	has_country_leader_ideology = progressive_nationalism_ideology	}
+		localization_key = progressive_nationalism_ideology
+	}
+	text = {	#統制型議会制
+		trigger = {	has_country_leader_ideology = supervised_parliamentary_system_ideology	}
+		localization_key = supervised_parliamentary_system_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = authoritarian_democrat_ideology
+	}
+}
+defined_text = {	#権威専制主義
+	name = GetIdeologyType_authoritarian_despot
+	text = {	#絶対君主主義
+		trigger = {	has_country_leader_ideology = absolute_monarchism_ideology	}
+		localization_key = absolute_monarchism_ideology
+	}
+	text = {	#指導者独裁制
+		trigger = {	has_country_leader_ideology = despotic_leadership_ideology	}
+		localization_key = despotic_leadership_ideology
+	}
+	text = {	#封建主義
+		trigger = {	has_country_leader_ideology = feudalism_ideology	}
+		localization_key = feudalism_ideology
+	}
+	text = {	#フランコ主義
+		trigger = {	has_country_leader_ideology = francoism_ideology	}
+		localization_key = francoism_ideology
+	}
+	text = {	#軍事政権
+		trigger = {	has_country_leader_ideology = military_junta_ideology	}
+		localization_key = military_junta_ideology
+	}
+	text = {	#神権主義
+		trigger = {	has_country_leader_ideology = theocracy_ideology	}
+		localization_key = theocracy_ideology
+	}
+	text = {	#軍閥主義
+		trigger = {	has_country_leader_ideology = warlordism_ideology	}
+		localization_key = warlordism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = authoritarian_despot_ideology
+	}
+}
+defined_text = {	#国家結束主義
+	name = GetIdeologyType_national_fascism
+	text = {	#宗教ファシズム
+		trigger = {	has_country_leader_ideology = clerical_fascism_ideology	}
+		localization_key = clerical_fascism_ideology
+	}
+	text = {	#協調軍国主義
+		trigger = {	has_country_leader_ideology = corporate_militarism_ideology	}
+		localization_key = corporate_militarism_ideology
+	}
+	text = {	#ファランジズム
+		trigger = {	has_country_leader_ideology = falangism_ideology	}
+		localization_key = falangism_ideology
+	}
+	text = {	#結束大衆主義
+		trigger = {	has_country_leader_ideology = fasci_populism_ideology	}
+		localization_key = fasci_populism_ideology
+	}
+	text = {	#国家サンディカリズム
+		trigger = {	has_country_leader_ideology = national_syndicalism_ideology	}
+		localization_key = national_syndicalism_ideology
+	}
+	text = {	#超方体主義
+		trigger = {	has_country_leader_ideology = pelleyism_ideology	}
+		localization_key = pelleyism_ideology
+	}
+	text = {	#連帯主義
+		trigger = {	has_country_leader_ideology = solidarism_ideology	}
+		localization_key = solidarism_ideology
+	}
+	text = {	#翼賛体制
+		trigger = {	has_country_leader_ideology = yokusan_system_ideology	}
+		localization_key = yokusan_system_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = national_fascism_ideology
+	}
+}
+defined_text = {	#国家社会主義
+	name = GetIdeologyType_national_socialism
+	text = {	#秘教ナチズム
+		trigger = {	has_country_leader_ideology = esoteric_nazism_ideology	}
+		localization_key = esoteric_nazism_ideology
+	}
+	text = {	#国際ナチズム
+		trigger = {	has_country_leader_ideology = international_nazism_ideology	}
+		localization_key = international_nazism_ideology
+	}
+	text = {	#国家ボルシェヴィズム右派
+		trigger = {	has_country_leader_ideology = national_bolshevism_right_ideology	}
+		localization_key = national_bolshevism_right_ideology
+	}
+	text = {	#軍事ナチズム
+		trigger = {	has_country_leader_ideology = stratocratic_nazism_ideology	}
+		localization_key = stratocratic_nazism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = national_socialism_ideology
+	}
+}
+defined_text = {	#超国家主義
+	name = GetIdeologyType_ultranationalism
+	text = {	#秘教主義
+		trigger = {	has_country_leader_ideology = esoterism_ideology	}
+		localization_key = esoterism_ideology
+	}
+	text = {	#ユーラシア主義
+		trigger = {	has_country_leader_ideology = eurasianism_ideology	}
+		localization_key = eurasianism_ideology
+	}
+	text = {	#宗教原理主義
+		trigger = {	has_country_leader_ideology = fundamentalism_ideology	}
+		localization_key = fundamentalism_ideology
+	}
+	text = {	#ツラニズム
+		trigger = {	has_country_leader_ideology = turanism_ideology	}
+		localization_key = turanism_ideology
+	}
+	text = {
+		trigger = {	always = yes	}
+		localization_key = ultranationalism_ideology
+	}
+}

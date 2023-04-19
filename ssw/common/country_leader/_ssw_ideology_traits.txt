@@ -1,0 +1,376 @@
+leader_traits = {	#メインイデオロギー
+	anarchism_ideology_trait = {	#無政府主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	progressive_socialism_ideology_trait = {	#革新的社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	marxism-leninism_ideology_trait = {	#マルクス・レーニン主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	social_democracy_ideology_trait = {	#社会民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	liberalism_ideology_trait = {	#自由主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	conservative_democracy_ideology_trait = {	#保守民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	authoritarian_democrat_ideology_trait = {	#権威的民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	authoritarian_despot_ideology_trait = {	#権威専制主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_fascism_ideology_trait = {	#国家結束主義
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_socialism_ideology_trait = {	#国家社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	ultranationalism_ideology_trait = {	#超国家主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#無政府主義
+	anarchism_ideology_trait = {	#無政府主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	anarcho_capitalism_ideology_trait = {	#無政府資本主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	anarcho_communism_ideology_trait = {	#無政府共産主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	anarcho_syndicalism_ideology_trait = {	#無政府サンディカリスト
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	anarchy_ideology_trait = {	#無秩序
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_anarchism_ideology_trait = {	#民族無政府主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	religious_anarchism_ideology_trait = {	#宗教無政府主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#革新的社会主義
+	progressive_socialism_ideology_trait = {	#革新的社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	christian_socialism_ideology_trait = {	#キリスト教社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	ethnic_socialism_ideology_trait = {	#民族社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	libertarian_socialism_ideology_trait = {	#リバタリアン社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	market_socialism_ideology_trait = {	#市場社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	syndicalism_ideology_trait = {	#サンディカリスト
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	techno_socialism_ideology_trait = {	#技術家社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#マルクス＝レーニン主義
+	marxism-leninism_ideology_trait = {	#マルクス＝レーニン主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	maoism_ideology_trait = {	#毛沢東主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	militant_socialism_ideology_trait = {	#軍国社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_bolshevism_left_ideology_trait = {	#国家ボルシェヴィズム左派
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_communism_ideology_trait = {	#民族共産主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	stalinism_ideology_trait = {	#スターリン主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	techno_bolshevism_ideology_trait = {	#技術家ボルシェヴィキ
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	trotskyism_ideology_trait = {	#トロツキー主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#社会民主主義
+	social_democracy_ideology_trait = {	#社会民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	christian_leftist_democracy_ideology_trait = {	#キリスト教左派民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	democratic_socialism_ideology_trait = {	#民主社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	leftist_kemalism_ideology_trait = {	#左派ケマル主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	left_populism_ideology_trait = {	#左派大衆主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_social_democracy_ideology_trait = {	#国家社会民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	popular_front_ideology_trait = {	#人民戦線派
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	reformism_ideology_trait = {	#改良主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#自由主義
+	liberalism_ideology_trait = {	#自由主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	classical_liberalism_ideology_trait = {	#古典的自由主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	liberal_corporatocracism_ideology_trait = {	#自由的企業支配主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	market_liberalism_ideology_trait = {	#市場自由主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	social_liberalism_ideology_trait = {	#社会自由主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#保守民主主義
+	conservative_democracy_ideology_trait = {	#保守民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	agrarianism_ideology_trait = {	#農耕主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	christian_rightist_democracy_ideology_trait = {	#キリスト教右派民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	conservative_populism_ideology_trait = {	#保守大衆主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	islamic_democracy_ideology_trait = {	#イスラム民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	reformer_conservatism_ideology_trait = {	#改良保守主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	social_conservatism_ideology_trait = {	#社会保守主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#権威的民主主義
+	authoritarian_democrat_ideology_trait = {	#権威的民主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	authority_corporatocracism_ideology_trait = {	#権威的企業支配主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	kemalism_ideology_trait = {	#ケマル主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_conservatism_ideology_trait = {	#国民保守主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	oligarchy_ideology_trait = {	#寡頭政治家
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	pragmatic_socialism_ideology_trait = {	#実用社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	progressive_nationalism_ideology_trait = {	#革新民族主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	supervised_parliamentary_system_ideology_trait = {	#統制型議会派
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#権威専制主義
+	authoritarian_despot_ideology_trait = {	#権威専制主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	absolute_monarchism_ideology_trait = {	#絶対君主主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	despotic_leadership_ideology_trait = {	#指導者独裁制派
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	feudalism_ideology_trait = {	#封建主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	francoism_ideology_trait = {	#フランコ主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	military_junta_ideology_trait = {	#軍事政権派
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	theocracy_ideology_trait = {	#神権主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	warlordism_ideology_trait = {	#軍閥主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#国家結束主義
+	national_fascism_ideology_trait = {	#国家結束主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	clerical_fascism_ideology_trait = {	#宗教ファシスト
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	corporate_militarism_ideology_trait = {	#協調軍国主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	falangism_ideology_trait = {	#ファランジスト
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	fasci_populism_ideology_trait = {	#結束大衆主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_syndicalism_ideology_trait = {	#国家サンディカリスト
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	pelleyism_ideology_trait = {	#超方体主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	solidarism_ideology_trait = {	#連帯主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	yokusan_system_ideology_trait = {	#翼賛体制派
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#国家社会主義
+	national_socialism_ideology_trait = {	#国家社会主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	esoteric_nazism_ideology_trait = {	#秘教ナチス
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	international_nazism_ideology_trait = {	#国際ナチス
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	national_bolshevism_right_ideology_trait = {	#国家ボルシェヴィズム右派
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	stratocratic_nazism_ideology_trait = {	#軍事ナチス
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
+leader_traits = {	#超国家主義
+	ultranationalism_ideology_trait = {	#超国家主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	esoterism_ideology_trait = {	#秘教主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	eurasianism_ideology_trait = {	#ユーラシア主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	fundamentalism_ideology_trait = {	#宗教原理主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	turanism_ideology_trait = {	#ツラン主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+}
