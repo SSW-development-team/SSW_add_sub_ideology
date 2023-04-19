@@ -20,7 +20,7 @@ class Ideology:
 					new_text.append("\t\t\t}")
 					self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 					for self.sub_ideology in self.list:
-						new_text.append("\t\t\t" + self.sub_ideology["id"] + "_ideology = {\t#" + self.sub_ideology["name"])
+						new_text.append("\t\t\t" + self.sub_ideology["id"] + " = {\t#" + self.sub_ideology["name"])
 						new_text.append("\t\t\t\tcan_be_randomly_selected = no")
 						new_text.append("\t\t\t}")
 					new_text.append("\t\t}")
@@ -127,12 +127,12 @@ class Localisation:
 			self.file.write(' {}_acceptance:0 "{}との外交容認"\n'.format(self.main_ideology["id"], self.main_ideology["trait"]))
 			self.file.write(' {}_ideology:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["name"]))
 			self.file.write(' {}_ideology_desc:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["desc"]))
-			self.file.write(' {}_ideology_trait:0 "{}"\n'.format(
-				self.main_ideology["id"], self.main_ideology["trait"]))
+			self.file.write(' {}_ideology_trait:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["trait"]))
 			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 			for t in self.list:
 				self.file.write(' {}:0 "{}"\n'.format(t["id"], t["name"]))
 				self.file.write(' {}_desc:0 "{}"\n'.format(t["id"], t["desc"]))
+				self.file.write(' {}_ideology_trait:0 "{}"\n'.format(t["id"], t["trait"]))
 			self.file.write(' \n')
 	def main(self):
 		self.add_localisation()

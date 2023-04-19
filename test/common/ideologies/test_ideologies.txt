@@ -3,19 +3,19 @@ ideologies = {
 		types = {
 			total_socialism_ideology = {	#全体社会主義
 			}
-			bukharinism_ideology_ideology = {	#ブハーリン主義
+			bukharinism_ideology = {	#ブハーリン主義
 				can_be_randomly_selected = no
 			}
-			maoism_ideology_ideology = {	#毛沢東主義
+			maoism_ideology = {	#毛沢東主義
 				can_be_randomly_selected = no
 			}
-			marxism-leninism_ideology_ideology = {	#マルクス＝レーニン主義
+			marxism-leninism_ideology = {	#マルクス＝レーニン主義
 				can_be_randomly_selected = no
 			}
-			stalinism_ideology_ideology = {	#スターリン主義
+			stalinism_ideology = {	#スターリン主義
 				can_be_randomly_selected = no
 			}
-			trotskyism_ideology_ideology = {	#トロツキー主義
+			trotskyism_ideology = {	#トロツキー主義
 				can_be_randomly_selected = no
 			}
 		}
@@ -176,7 +176,7 @@ ideologies = {
 		types = {
 			liberal_democracy_ideology = {	#自由民主主義
 			}
-			conservative_liberalism_ideology_ideology = {	#保守自由主義
+			conservative_liberalism_ideology = {	#保守自由主義
 				can_be_randomly_selected = no
 			}
 		}
@@ -233,7 +233,7 @@ ideologies = {
 		types = {
 			conservative_democracy_ideology = {	#保守民主主義
 			}
-			christian_democracy_ideology_ideology = {	#キリスト教民主主義
+			christian_democracy_ideology = {	#キリスト教民主主義
 				can_be_randomly_selected = no
 			}
 		}
@@ -289,10 +289,10 @@ ideologies = {
 		types = {
 			authoritative_democracy_ideology = {	#権威民主主義
 			}
-			authoritarian_conservatism_ideology_ideology = {	#権威保守主義
+			authoritarian_conservatism_ideology = {	#権威保守主義
 				can_be_randomly_selected = no
 			}
-			provisional_government_ideology_ideology = {	#臨時政府
+			provisional_government_ideology = {	#臨時政府
 				can_be_randomly_selected = no
 			}
 		}
@@ -348,7 +348,7 @@ ideologies = {
 		types = {
 			national_authoritarianism_ideology = {	#国家権威主義
 			}
-			colonial_government_ideology_ideology = {	#植民地政府
+			colonial_government_ideology = {	#植民地政府
 				can_be_randomly_selected = no
 			}
 		}
@@ -405,10 +405,10 @@ ideologies = {
 		types = {
 			national_populism_ideology = {	#国家大衆主義
 			}
-			francoism_ideology_ideology = {	#フランコ主義
+			francoism_ideology = {	#フランコ主義
 				can_be_randomly_selected = no
 			}
-			national_socialism_ideology_ideology = {	#国民社会主義
+			national_socialism_ideology = {	#国民社会主義
 				can_be_randomly_selected = no
 			}
 		}

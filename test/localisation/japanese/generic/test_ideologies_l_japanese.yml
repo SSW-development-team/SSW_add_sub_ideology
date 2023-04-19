@@ -10,14 +10,19 @@
  total_socialism_ideology_trait:0 "全体社会主義者"
  bukharinism_ideology:0 "ブハーリン主義"
  bukharinism_ideology_desc:0 ""
+ bukharinism_ideology_ideology_trait:0 "ブハーリン主義者"
  maoism_ideology:0 "毛沢東主義"
  maoism_ideology_desc:0 ""
+ maoism_ideology_ideology_trait:0 "毛沢東主義者"
  marxism-leninism_ideology:0 "マルクス＝レーニン主義"
  marxism-leninism_ideology_desc:0 ""
+ marxism-leninism_ideology_ideology_trait:0 "マルクス＝レーニン主義者"
  stalinism_ideology:0 "スターリン主義"
  stalinism_ideology_desc:0 "スターリン主義とは個人崇拝、暴力的対外政策、恐怖政治や大規模な粛清を特徴とし、スターリン自身はマルクス・レーニン主義と呼んだ全体主義である。"
+ stalinism_ideology_ideology_trait:0 "スターリン主義者"
  trotskyism_ideology:0 "トロツキー主義"
  trotskyism_ideology_desc:0 ""
+ trotskyism_ideology_ideology_trait:0 "トロツキー主義者"
  
 #急進社会主義
  radical_socialism:0 "急進社会主義"
@@ -50,6 +55,7 @@
  liberal_democracy_ideology_trait:0 "自由民主主義者"
  conservative_liberalism_ideology:0 "保守自由主義"
  conservative_liberalism_ideology_desc:0 ""
+ conservative_liberalism_ideology_ideology_trait:0 "保守自由主義者"
  
 #保守民主主義
  conservative_democracy:0 "保守民主主義"
@@ -62,6 +68,7 @@
  conservative_democracy_ideology_trait:0 "保守民主主義者"
  christian_democracy_ideology:0 "キリスト教民主主義"
  christian_democracy_ideology_desc:0 ""
+ christian_democracy_ideology_ideology_trait:0 "キリスト教民主主義者"
  
 #権威民主主義
  authoritative_democracy:0 "権威民主主義"
@@ -74,8 +81,10 @@
  authoritative_democracy_ideology_trait:0 "権威民主主義者"
  authoritarian_conservatism_ideology:0 "権威保守主義"
  authoritarian_conservatism_ideology_desc:0 ""
+ authoritarian_conservatism_ideology_ideology_trait:0 "権威保守主義者"
  provisional_government_ideology:0 "臨時政府"
  provisional_government_ideology_desc:0 ""
+ provisional_government_ideology_ideology_trait:0 "臨時政府派"
  
 #国家権威主義
  national_authoritarianism:0 "国家権威主義"
@@ -88,6 +97,7 @@
  national_authoritarianism_ideology_trait:0 "国家権威主義者"
  colonial_government_ideology:0 "植民地政府"
  colonial_government_ideology_desc:0 ""
+ colonial_government_ideology_ideology_trait:0 "植民地政府派"
  
 #国家大衆主義
  national_populism:0 "国家大衆主義"
@@ -100,6 +110,8 @@
  national_populism_ideology_trait:0 "国家大衆主義者"
  francoism_ideology:0 "フランコ主義"
  francoism_ideology_desc:0 "フランコ主義とは、権威主義や反共産主義、スペイン民族主義、国家カトリック、君主主義、軍国主義、国民保守主義、反フリーメーソン、反カタロニア主義、汎ヒスパニア主義、反自由主義を包括した思想である。"
+ francoism_ideology_ideology_trait:0 "フランコ主義者"
  national_socialism_ideology:0 "国民社会主義"
  national_socialism_ideology_desc:0 "かつてドイツにこの主義を掲げた与党があった。しかし先の大戦を引き起こし世界から忌み嫌われることとなった。"
+ national_socialism_ideology_ideology_trait:0 "国民社会主義者"
  
