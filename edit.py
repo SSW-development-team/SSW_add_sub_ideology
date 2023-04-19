@@ -8,35 +8,27 @@ class Ideology:
 		self.sub_ideology_list = database.csv_open(mod_name, "sub_ideology")
 		
 	def add_sub_ideologies(self):
-		tmp = []
-		tmp2 = []
-		with open('./{0}/common/country_leader/_{0}_ideology.txt'.format(self.mod_name), encoding='UTF-8') as f:
-			lines = f.readlines()
-			for line in lines:
-				for self.main_ideology in self.main_ideology_list:
-					if (self.main_ideology["id"] + "_ideology") not in line:
-						self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "name")
-						for t in self.list:
-							if t["id"] not in line:
-								tmp.append(line)
-			for a in tmp:
-				for self.main_ideology in self.main_ideology_list:
-					if self.main_ideology["name"] in a:
-						tmp_main_ideology_id = self.main_ideology["id"]
-						tmp_main_ideology_name = self.main_ideology["name"]
-					if "types = {" in a:
-						tmp2.append("\t\t\t" + tmp_main_ideology_id + "_ideology = {\t#" + tmp_main_ideology_name)
-						tmp2.append("\t\t\t}")
-						self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", tmp_main_ideology_id, "name")
-						for t in self.list:
-							tmp2.append("\t\t\t" + t["id"] + " = {\t#" + t["name"])
-							tmp2.append("\t\t\t\tcan_be_randomly_selected = no")
-							tmp2.append("\t\t\t}")
-				tmp2.append(a)
-		with open('./{0}/common/country_leader/_{0}_ideology.txt'.format(self.mod_name), encoding='UTF-8', mode='w') as f:
-			for b in tmp2:
-				f.writelines(b)
-				
+		self.file = open('./{0}/common/ideologies/{0}_ideologies.txt'.format(self.mod_name), 'r', encoding='UTF-8')
+		old_text = re.sub('types = [\s\S\n]*?\n\t\t\}\n\t\t\n\t\t' , "", self.file.read()).splitlines()
+		new_text = []
+		for line in old_text:
+			new_text.append(line)
+			for self.main_ideology in self.main_ideology_list:
+				if self.main_ideology["id"] in line:
+					new_text.append("\t\ttypes = {")
+					new_text.append("\t\t\t" + self.main_ideology["id"] + "_ideology = {\t#" + self.main_ideology["name"])
+					new_text.append("\t\t\t}")
+					self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "name")
+					for self.sub_ideology in self.list:
+						new_text.append("\t\t\t" + self.sub_ideology["id"] + "_ideology = {\t#" + self.sub_ideology["name"])
+						new_text.append("\t\t\t\tcan_be_randomly_selected = no")
+						new_text.append("\t\t\t}")
+					new_text.append("\t\t}")
+		self.file = open('./{0}/common/ideologies/{0}_ideologies.txt'.format(self.mod_name), 'w', encoding='UTF-8')
+		for line2 in new_text:
+			self.file.write(line2)
+			self.file.write("\n")
+		
 	def main(self):
 		self.add_sub_ideologies()
 
@@ -147,7 +139,7 @@ class Localisation:
 
 
 def add_sub_ideology(mod_name):
-	# Ideology(mod_name).main()
+	Ideology(mod_name).main()
 	CountryLeader(mod_name).main()
 	ScriptedLocalisation(mod_name).main()
 	Interface(mod_name).main()
