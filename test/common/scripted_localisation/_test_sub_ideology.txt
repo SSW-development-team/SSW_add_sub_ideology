@@ -35,6 +35,18 @@ defined_text = {
 }
 defined_text = {	#全体社会主義
 	name = GetIdeologyType_total_socialism
+	text = {	#ブハーリン主義
+		trigger = {	has_country_leader_ideology = bukharinism_ideology	}
+		localization_key = bukharinism_ideology
+	}
+	text = {	#毛沢東主義
+		trigger = {	has_country_leader_ideology = maoism_ideology	}
+		localization_key = maoism_ideology
+	}
+	text = {	#マルクス＝レーニン主義
+		trigger = {	has_country_leader_ideology = marxism-leninism_ideology	}
+		localization_key = marxism-leninism_ideology
+	}
 	text = {	#スターリン主義
 		trigger = {	has_country_leader_ideology = stalinism_ideology	}
 		localization_key = stalinism_ideology
@@ -42,18 +54,6 @@ defined_text = {	#全体社会主義
 	text = {	#トロツキー主義
 		trigger = {	has_country_leader_ideology = trotskyism_ideology	}
 		localization_key = trotskyism_ideology
-	}
-	text = {	#ブハーリン主義
-		trigger = {	has_country_leader_ideology = bukharinism_ideology	}
-		localization_key = bukharinism_ideology
-	}
-	text = {	#マルクス＝レーニン主義
-		trigger = {	has_country_leader_ideology = marxism-leninism_ideology	}
-		localization_key = marxism-leninism_ideology
-	}
-	text = {	#毛沢東主義
-		trigger = {	has_country_leader_ideology = maoism_ideology	}
-		localization_key = maoism_ideology
 	}
 	text = {
 		trigger = {	always = yes	}

@@ -3,19 +3,19 @@ ideologies = {
 		types = {
 			total_socialism_ideology = {	#全体社会主義
 			}
-			stalinism_ideology_ideology = {	#スターリン主義
-				can_be_randomly_selected = no
-			}
-			trotskyism_ideology_ideology = {	#トロツキー主義
-				can_be_randomly_selected = no
-			}
 			bukharinism_ideology_ideology = {	#ブハーリン主義
+				can_be_randomly_selected = no
+			}
+			maoism_ideology_ideology = {	#毛沢東主義
 				can_be_randomly_selected = no
 			}
 			marxism-leninism_ideology_ideology = {	#マルクス＝レーニン主義
 				can_be_randomly_selected = no
 			}
-			maoism_ideology_ideology = {	#毛沢東主義
+			stalinism_ideology_ideology = {	#スターリン主義
+				can_be_randomly_selected = no
+			}
+			trotskyism_ideology_ideology = {	#トロツキー主義
 				can_be_randomly_selected = no
 			}
 		}

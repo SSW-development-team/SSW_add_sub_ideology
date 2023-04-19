@@ -18,7 +18,7 @@ class Ideology:
 					new_text.append("\t\ttypes = {")
 					new_text.append("\t\t\t" + self.main_ideology["id"] + "_ideology = {\t#" + self.main_ideology["name"])
 					new_text.append("\t\t\t}")
-					self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "name")
+					self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 					for self.sub_ideology in self.list:
 						new_text.append("\t\t\t" + self.sub_ideology["id"] + "_ideology = {\t#" + self.sub_ideology["name"])
 						new_text.append("\t\t\t\tcan_be_randomly_selected = no")
@@ -41,7 +41,7 @@ class CountryLeader:
 	def add_trait(self):
 		self.file = open('./{0}/common/country_leader/_{0}_ideology.txt'.format(self.mod_name), 'w', encoding='UTF-8')
 		for self.main_ideology in self.main_ideology_list:
-			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "name")
+			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 			self.file.write('leader_traits = {{\t#{}\n'.format(self.main_ideology["name"]))
 			self.file.write('\t{}_ideology_trait = {{\t#{}\n'.format(self.main_ideology["id"], self.main_ideology["trait"]))
 			self.file.write("\t\trandom = no\n\t\tai_will_do = {\tfactor = 0\t}\n\t}\n")
@@ -70,7 +70,7 @@ class ScriptedLocalisation:
 		for self.main_ideology in self.main_ideology_list:
 			self.file.write('defined_text = {{\t#{}\n'.format(self.main_ideology["name"]))
 			self.file.write('\tname = GetIdeologyType_{}\n'.format(self.main_ideology["id"]))
-			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "name")
+			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 			for t in self.list:
 				self.file.write('\ttext = {{\t#{}\n'.format(t["name"]))
 				self.file.write('\t\ttrigger = {{\thas_country_leader_ideology = {}\t}}\n'.format(t["id"]))
@@ -99,7 +99,7 @@ class Interface:
 		self.file.write('}\n')
 		for self.main_ideology in self.main_ideology_list:
 			self.file.write('defined_text = {{\t#{}\n'.format(self.main_ideology["name"]))
-			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "name")
+			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 			for t in self.list:
 				self.file.write('\tspriteType = {{\t#{}\n'.format(t["name"]))
 				self.file.write('\t\tname = "GFX_ideology_{}"\n'.format(t["id"]))
@@ -129,7 +129,7 @@ class Localisation:
 			self.file.write(' {}_ideology_desc:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["desc"]))
 			self.file.write(' {}_ideology_trait:0 "{}"\n'.format(
 				self.main_ideology["id"], self.main_ideology["trait"]))
-			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "name")
+			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 			for t in self.list:
 				self.file.write(' {}:0 "{}"\n'.format(t["id"], t["name"]))
 				self.file.write(' {}_desc:0 "{}"\n'.format(t["id"], t["desc"]))

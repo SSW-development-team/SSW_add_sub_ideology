@@ -33,6 +33,18 @@ spriteTypes = {	#メインイデオロギー
 	}
 }
 defined_text = {	#全体社会主義
+	spriteType = {	#ブハーリン主義
+		name = "GFX_ideology_bukharinism_ideology"
+		texturefile = "gfx/interface/ideologies/total_socialism/bukharinism_ideology.png"
+	}
+	spriteType = {	#毛沢東主義
+		name = "GFX_ideology_maoism_ideology"
+		texturefile = "gfx/interface/ideologies/total_socialism/maoism_ideology.png"
+	}
+	spriteType = {	#マルクス＝レーニン主義
+		name = "GFX_ideology_marxism-leninism_ideology"
+		texturefile = "gfx/interface/ideologies/total_socialism/marxism-leninism_ideology.png"
+	}
 	spriteType = {	#スターリン主義
 		name = "GFX_ideology_stalinism_ideology"
 		texturefile = "gfx/interface/ideologies/total_socialism/stalinism_ideology.png"
@@ -40,18 +52,6 @@ defined_text = {	#全体社会主義
 	spriteType = {	#トロツキー主義
 		name = "GFX_ideology_trotskyism_ideology"
 		texturefile = "gfx/interface/ideologies/total_socialism/trotskyism_ideology.png"
-	}
-	spriteType = {	#ブハーリン主義
-		name = "GFX_ideology_bukharinism_ideology"
-		texturefile = "gfx/interface/ideologies/total_socialism/bukharinism_ideology.png"
-	}
-	spriteType = {	#マルクス＝レーニン主義
-		name = "GFX_ideology_marxism-leninism_ideology"
-		texturefile = "gfx/interface/ideologies/total_socialism/marxism-leninism_ideology.png"
-	}
-	spriteType = {	#毛沢東主義
-		name = "GFX_ideology_maoism_ideology"
-		texturefile = "gfx/interface/ideologies/total_socialism/maoism_ideology.png"
 	}
 }
 defined_text = {	#急進社会主義

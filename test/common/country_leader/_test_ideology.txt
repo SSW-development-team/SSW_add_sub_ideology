@@ -3,15 +3,11 @@ leader_traits = {	#全体社会主義
 		random = no
 		ai_will_do = {	factor = 0	}
 	}
-	stalinism_ideology_trait = {	#スターリン主義者
-		random = no
-		ai_will_do = {	factor = 0	}
-	}
-	trotskyism_ideology_trait = {	#トロツキー主義者
-		random = no
-		ai_will_do = {	factor = 0	}
-	}
 	bukharinism_ideology_trait = {	#ブハーリン主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	maoism_ideology_trait = {	#毛沢東主義者
 		random = no
 		ai_will_do = {	factor = 0	}
 	}
@@ -19,7 +15,11 @@ leader_traits = {	#全体社会主義
 		random = no
 		ai_will_do = {	factor = 0	}
 	}
-	maoism_ideology_trait = {	#毛沢東主義者
+	stalinism_ideology_trait = {	#スターリン主義者
+		random = no
+		ai_will_do = {	factor = 0	}
+	}
+	trotskyism_ideology_trait = {	#トロツキー主義者
 		random = no
 		ai_will_do = {	factor = 0	}
 	}
