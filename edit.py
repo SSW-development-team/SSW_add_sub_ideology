@@ -98,12 +98,12 @@ class Interface:
 			self.file.write('\t}\n')
 		self.file.write('}\n')
 		for self.main_ideology in self.main_ideology_list:
-			self.file.write('defined_text = {{\t#{}\n'.format(self.main_ideology["name"]))
+			self.file.write('spriteTypes = {{\t#{}\n'.format(self.main_ideology["name"]))
 			self.list = database.csv_filter_sort(self.sub_ideology_list, "main_ideology", self.main_ideology["id"], "id")
 			for t in self.list:
 				self.file.write('\tspriteType = {{\t#{}\n'.format(t["name"]))
 				self.file.write('\t\tname = "GFX_ideology_{}"\n'.format(t["id"]))
-				self.file.write('\t\ttexturefile = "gfx/interface/ideologies/{}/{}.png"\n'.format(self.main_ideology["id"], t["id"]))
+				self.file.write('\t\ttexturefile = "gfx/interface/ideologies/sub_ideology/{}/{}.png"\n'.format(self.main_ideology["id"], t["id"]))
 				self.file.write('\t}\n')
 			self.file.write('}\n')
 	def main(self):
@@ -124,7 +124,7 @@ class Localisation:
 			self.file.write(' {}_noun:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["name"]))
 			self.file.write(' {}_desc:0 "{}政権"\n'.format(self.main_ideology["id"], self.main_ideology["name"]))
 			self.file.write(' {}_drift:0 "日毎の{}への支援"\n'.format(self.main_ideology["id"], self.main_ideology["name"]))
-			self.file.write(' {}_acceptance:0 "{}との外交容認"\n'.format(self.main_ideology["id"], self.main_ideology["trait"]))
+			self.file.write(' {}_acceptance:0 "{}との外交容認"\n'.format(self.main_ideology["id"], self.main_ideology["name"]))
 			self.file.write(' {}_ideology:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["name"]))
 			self.file.write(' {}_ideology_desc:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["desc"]))
 			self.file.write(' {}_ideology_trait:0 "{}"\n'.format(self.main_ideology["id"], self.main_ideology["trait"]))
@@ -132,7 +132,7 @@ class Localisation:
 			for t in self.list:
 				self.file.write(' {}:0 "{}"\n'.format(t["id"], t["name"]))
 				self.file.write(' {}_desc:0 "{}"\n'.format(t["id"], t["desc"]))
-				self.file.write(' {}_ideology_trait:0 "{}"\n'.format(t["id"], t["trait"]))
+				self.file.write(' {}_trait:0 "{}"\n'.format(t["id"], t["trait"]))
 			self.file.write(' \n')
 	def main(self):
 		self.add_localisation()
